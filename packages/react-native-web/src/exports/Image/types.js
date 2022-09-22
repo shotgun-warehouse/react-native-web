@@ -101,6 +101,7 @@ export type ImageProps = {
   blurRadius?: number,
   defaultSource?: Source,
   draggable?: boolean,
+  fetchpriority?: 'high',
   onError?: (e: any) => void,
   onLayout?: (e: any) => void,
   onLoad?: (e: any) => void,

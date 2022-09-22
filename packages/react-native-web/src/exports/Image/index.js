@@ -149,6 +149,7 @@ const Image: React.AbstractComponent<ImageProps, React.ElementRef<typeof View>> 
       blurRadius,
       defaultSource,
       draggable,
+      fetchpriority,
       onError,
       onLayout,
       onLoad,
@@ -203,6 +204,7 @@ const Image: React.AbstractComponent<ImageProps, React.ElementRef<typeof View>> 
           alt: accessibilityLabel || '',
           classList: [classes.accessibilityImage],
           draggable: draggable || false,
+          fetchpriority,
           ref: hiddenImageRef,
           src: displayImageUri
         })
